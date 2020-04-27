@@ -1,0 +1,42 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/TikiSoft.UniversalPaymentGateway",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:7153",
+      "sslPort": 44381
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "TikiSoft.UniversalPaymentGateway": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": false,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "sslPort":  11111
+    }
+  }
+}

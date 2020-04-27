@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tikisoft.universalpaymentgateway:
+    image: ${DOCKER_REGISTRY-}tikisoftuniversalpaymentgateway
+    build:
+      context: .
+      dockerfile: Tikisoft.UniversalPaymentGateway.WebApi/Dockerfile

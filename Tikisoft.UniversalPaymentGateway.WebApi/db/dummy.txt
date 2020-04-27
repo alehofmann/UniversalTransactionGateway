@@ -1,0 +1,1 @@
+This file only intent is make db folder to be published along the rest of the application.

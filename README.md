@@ -1,2 +1,2 @@
 # UniversalTransactionGateway
-Universal layer for payment gateway and processor integration
+Universal layer for payments gateway and processor integration
